@@ -42,7 +42,7 @@ public class Ship {
     }
 
     public void vesselDetails() {
-        System.out.println("Ships name: " + getName() + " crew number: "
-                + getCrew() + " year ship was built: " + getYear());
+        System.out.println("Ship's name: " + getName()
+                + ", crew number: " + getCrew() + ", year ship was built: " + getYear());
     }
 }
