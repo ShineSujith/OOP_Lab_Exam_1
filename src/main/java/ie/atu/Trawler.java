@@ -25,6 +25,6 @@ public class Trawler extends Ship{
     }
 
     public void vesselDetails() {
-        System.out.println("Trawler's name: " + super.getName() + ", cargo in tonnage: " + getCargo());
+        System.out.println("Trawler's name: " + super.getName() + ", cargo capacity in tonnage: " + getCargo());
     }
 }

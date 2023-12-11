@@ -43,6 +43,6 @@ public class Ship {
 
     public void vesselDetails() {
         System.out.println("Ship's name: " + getName()
-                + ", crew number: " + getCrew() + ", year ship was built: " + getYear());
+                + ", minimum number of crew members: " + getCrew() + ", year ship was built: " + getYear());
     }
 }

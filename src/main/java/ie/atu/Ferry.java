@@ -24,6 +24,6 @@ public class Ferry extends Ship {
     }
 
     public void vesselDetails() {
-        System.out.println("Ferry's name: " + super.getName() + ", number of passengers: " + getPassengers());
+        System.out.println("Ferry's name: " + super.getName() + ", maximum number of passengers: " + getPassengers());
     }
 }
